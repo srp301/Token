@@ -1,0 +1,27 @@
+.main{background-color:#f0f4f5;}
+.main_fix{width:1250px; margin:0 auto; background-color:#f0f4f5; padding-top:20px; overflow: hidden;}
+.main_left{width:820px; display:inline; float:left; padding-right:20px;}
+.main_right{float:left; width: 360px; overflow: hidden;}
+/*----幻灯片样�?---*/
+.slide{width:400px; height:266px; display:inline; float:left; margin-right:20px; margin-bottom:20px;}
+.sub_box{width:400px; height:266px;  margin:0 auto; position:relative; overflow:hidden;}
+.sub_box img{border:none; width:400px; height:266px;}
+#bd1lfimg{position:relative; width:400px; height:266px; overflow:hidden;}
+#bd1lfimg div{width:100000px; margin-left:-4px;}
+#bd1lfimg dl{width:400px; height:266px; position:relative; overflow:hidden; float:left;}
+#bd1lfimg dt{width:400px; height:266px; position:absolute; left:0px; top:0px;}
+#bd1lfimg dd{width:400px; height:42px; background:#000000; filter:alpha(Opacity=70); Opacity:0.7; position:absolute; left:0px; bottom:0px; padding:0 10px;}
+#bd1lfimg dd a{color:#ffffff; text-decoration:none; height:25px; margin:12.5px 0 12.5px 0;}
+#bd1lfimg dd a:hover{text-decoration:none; color:#cccccc;}
+#bd1lfimg dd tt{color:#dddddd; height:42px; line-height:42px; display:block;}
+#bd1lfimg dd tt a:hover{text-decoration:underline; cursor:pointer;}	
+.sub_nav{width:100px; height:40px; position:absolute; right:0; bottom:0; color:#999999;z-index:200;}
+.sub_no{height:40px; float:right;padding-right:15px; }
+.sub_no ul{height:17px; margin:12.5px 0;}
+.sub_no li{display:block; width:17px; height:17px; float:left; margin-left:4px;overflow:hidden; vertical-align:middle; text-align:center; background:url(../images/btns.png) no-repeat;font-family:Arial; font-size:14px; color:#999999; cursor:pointer;}
+.sub_no li.show{background:url(../images/btns-hover.png) no-repeat; color:#ff7800; }
+.sub_more{float:right; width:50px; height:25px; background:#000000; color:#999999; text-align:center; line-height:25px;}
+.sub_more a{color:#999999;}
+.sub_more a:hover{color:#cccccc; text-decoration:none;}
+/*------------新闻速递----------------*/
+.xwsd{ display:inline; float:left; width:398px; height:264px; margin-bottom:20px;}
